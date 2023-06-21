@@ -190,6 +190,10 @@ body {
 
 }
 
+.working {
+padding-bottom: 120px;
+}
+
 
 .direction-subtitle {
 font-weight: 500;
@@ -213,17 +217,20 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    
- 
-    
-
+    margin-bottom: 72px;
 }
+
+.working-menu {
+    display: flex;
+    gap: 24px;
+}
+
 
 .working-menu-item {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
+width: calc((100% - 48px) / 3);
 }
 .team-title {
     font-size: 36px;
