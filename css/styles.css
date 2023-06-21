@@ -28,7 +28,10 @@ body {
     display: flex;
     align-items: center;
 }
-
+.direction-menu {
+    display: flex;
+    gap: 24px;
+}
 
 
 
@@ -113,9 +116,14 @@ body {
     color: #2e2f42;
 }
 
+.direction-title {
+    visually-hidden;
 
+}
 
-
+.direction-menu-item {
+    width: calc((100% - 72px) / 4);
+}
 
 
 .hero {
@@ -154,6 +162,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .direction-text {
     font-size: 16px;
@@ -232,7 +241,9 @@ background-color: #FFFFFF;
     
 }
 
-
+.direction-1 {
+    padding: 120px 0;
+}
 
 
 .p-btn{
