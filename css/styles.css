@@ -240,6 +240,7 @@ width: calc((100% - 48px) / 3);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team {
 background-color: #F4F4FD;
@@ -249,6 +250,12 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize; 
 color: #2e2f42;
+padding: 120px 0;
+}
+.team-menu {
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
 }
 
 
@@ -257,7 +264,8 @@ color: #2e2f42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -266,13 +274,18 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .team-menu-item {
 background-color: #FFFFFF;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+.staff {
+    padding: 32px 16px;
 
 }
-
 
 
 .address-menu-item {
