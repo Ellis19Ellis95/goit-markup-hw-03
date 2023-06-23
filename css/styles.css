@@ -393,6 +393,7 @@ color: #404bbf;
     letter-spacing: 0.04em;
     text-align: center;
     background-color: #F4F4FD;
+    border: 1px solid #e7e9fc;
 }
 .p-direction-menu {
     display: flex;
