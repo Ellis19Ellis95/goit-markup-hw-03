@@ -26,7 +26,11 @@ body {
 
 }
 
-
+.catalogue {
+padding-top: 96px;
+padding-bottom: 120px;
+}
+ 
 .nav {
     display: flex;
     align-items: center;
@@ -139,6 +143,10 @@ body {
 .direction-menu-item {
     width: calc((100% - 72px) / 4);
     
+}
+
+.p-direction-menu-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .footer-container {
@@ -287,6 +295,7 @@ background-color: #FFFFFF;
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
+
 .staff {
     padding: 32px 16px;
 
@@ -316,6 +325,16 @@ letter-spacing: 0.04em;
 color: #4d5ae5;
 background-color: #F4F4FD;
 cursor: pointer;
+padding: 12px 24px;
+border-radius: 4px;
+}
+
+.p-btn:hover {
+border: 1px solid transparent;
+}
+
+.p-btn:focus {
+border: 1px solid transparent;
 }
 
 .header-menu:hover {
@@ -347,6 +366,7 @@ color: #404bbf;
 background-color: #404BBF;
 }
 
+
 .btn-two:hover {
     color: #404bbf;
     background-color: #404BBF;
@@ -374,12 +394,22 @@ color: #404bbf;
     text-align: center;
     background-color: #F4F4FD;
 }
+.p-direction-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+}
+
+
 .p-direction-subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .p-direction-text {
     font-size: 16px;
@@ -422,4 +452,18 @@ letter-spacing: 0.02em;
 color: #434455;
 display: flex;
 gap: 40px;
+}
+
+.p-hero-menu {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
+}
+
+.apps {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
 }
